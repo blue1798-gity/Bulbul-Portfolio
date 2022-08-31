@@ -1,0 +1,73 @@
+.aboutMe {
+  padding: 0 3rem 0 3rem;
+  display: flex;
+  height: 90vh;
+  margin-bottom: 6rem;
+  margin-top: 9rem;
+}
+
+.me {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.me > :nth-child(1) {
+  color: var(--black);
+  font-size: 4.5rem;
+  font-weight: bold;
+}
+
+.me > :nth-child(2) {
+  color: #26c6da;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.myIntro {
+  padding: 0 4rem 0 8rem;
+  margin-top: 13rem;
+  color: var(--gray);
+}
+
+.blur {
+  position: absolute;
+  width: 22rem;
+  height: 14rem;
+  border-radius: 50%;
+  background: #26c6da;
+  z-index: -9;
+  top: 130%;
+  left: 88%;
+  filter: blur(190px);
+}
+
+.headshot {
+  width: 300px;
+  height: 350px;
+  margin-top: 2rem;
+  border-radius: 5px;
+  border: 7px solid #26c6da;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media screen and (max-width: 500px) {
+  .aboutMe {
+    margin-top: 8rem;
+    flex-direction: column;
+  }
+  .headshot {
+    transform: scale(0.5);
+    margin-top: -2rem;
+    margin-left: -4rem;
+  }
+  .myIntro {
+    display: flex;
+    margin-left: -8rem;
+    margin-top: -2rem;
+    width: 350px;
+  }
+  .myIntro > :nth-child(1) {
+    font-size: 13px;
+  }
+}

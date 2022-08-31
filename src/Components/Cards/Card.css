@@ -1,0 +1,25 @@
+.cards {
+  width: 5rem;
+  height: 6rem;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  border: 4px solid #26c6da;
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+}
+
+.cards span:nth-of-type(1) {
+  color: var(--gray);
+  font-size: 16px;
+}
+
+.cards > img {
+  transform: scale(0.6);
+  margin-bottom: -5srem;
+}

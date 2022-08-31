@@ -1,0 +1,55 @@
+.wrapper {
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+  padding: 0.5rem 3.5rem;
+}
+
+.left-side {
+  flex: 1;
+  align-items: center;
+  display: flex;
+  gap: 1rem;
+}
+
+.name {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.right-side {
+  flex: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 400;
+}
+
+.list > ul {
+  display: flex;
+  gap: 2rem;
+  margin-right: 2rem;
+  list-style-type: none;
+}
+
+.list > ul > li:hover {
+  cursor: pointer;
+  color: #26c6da;
+}
+
+.n-button {
+  flex: 2;
+  width: 8rem;
+  height: 2rem;
+  margin-right: -5rem;
+}
+
+@media screen and (max-width: 500px) {
+  .list {
+    display: none;
+  }
+  .n-button {
+    display: none;
+  }
+}

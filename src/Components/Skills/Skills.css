@@ -1,0 +1,119 @@
+.skill {
+  padding: 0 3rem 0 3rem;
+  display: flex;
+  height: 90vh;
+  margin-bottom: 1rem;
+  margin-top: 9rem;
+}
+
+.mySkill {
+  position: relative;
+  text-align: center;
+}
+
+.mySkill > :nth-child(1) {
+  color: var(--black);
+  font-size: 4.5rem;
+  font-weight: bold;
+}
+
+.mySkill > :nth-child(2) {
+  color: #26c6da;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.blury {
+  position: absolute;
+  width: 22rem;
+  height: 14rem;
+  border-radius: 50%;
+  background: #26c6da;
+  z-index: -9;
+  top: 70rem;
+  left: 50rem;
+  filter: blur(150px);
+}
+
+.skillCards {
+  margin-top: 3rem;
+  margin-left: -7rem;
+}
+
+.skill-Cards1 {
+  margin-top: 5rem;
+  margin-left: 2rem;
+}
+
+.skill-Cards2 {
+  margin-top: -7rem;
+  margin-left: 8rem;
+}
+
+.skill-Cards3 {
+  margin-top: 12rem;
+  margin-left: 14rem;
+}
+
+.skill-Cards4 {
+  margin-top: -14rem;
+  margin-left: 20rem;
+}
+
+.skill-Cards5 {
+  margin-top: 19rem;
+  margin-left: 26rem;
+}
+
+.skill-Cards6 {
+  margin-top: -21rem;
+  margin-left: 32rem;
+}
+
+.skill-Cards7 {
+  margin-top: 26rem;
+  margin-left: 38rem;
+}
+
+@media screen and (max-width: 500px) {
+  .skill {
+    flex-direction: column;
+    display: flex;
+    margin-top: -10rem;
+    margin-left: -1rem;
+  }
+  .skillCards {
+    flex-direction: column;
+    display: flex;
+    margin-left: -1rem;
+    margin-top: 2rem;
+  }
+  .skill-Cards1 {
+    margin-top: 1rem;
+    margin-left: 3rem;
+  }
+  .skill-Cards2 {
+    margin-top: 1rem;
+    margin-left: 10rem;
+  }
+  .skill-Cards3 {
+    margin-top: 8rem;
+    margin-left: 3rem;
+  }
+  .skill-Cards4 {
+    margin-top: 8rem;
+    margin-left: 10rem;
+  }
+  .skill-Cards5 {
+    margin-top: 15rem;
+    margin-left: 3rem;
+  }
+  .skill-Cards6 {
+    margin-top: 15rem;
+    margin-left: 10rem;
+  }
+  .skill-Cards7 {
+    margin-top: 22rem;
+    margin-left: 3rem;
+  }
+}
