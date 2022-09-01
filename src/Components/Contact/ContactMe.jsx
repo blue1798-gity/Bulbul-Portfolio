@@ -2,7 +2,6 @@ import React from "react";
 import emailjs from "emailjs-com";
 import phone from "../../img/phone-call.png";
 import mail from "../../img/email.png";
-import message from "../../img/send.png";
 import "./ContactMe.css";
 
 function ContactMe() {
