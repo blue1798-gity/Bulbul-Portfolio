@@ -5,7 +5,7 @@ import Github from "../../img/github.png";
 import LinkdIn from "../../img/linkedin.png";
 import instagram from "../../img/insta.png";
 import blue from "../../img/blue.png";
-import Resume from "./Resumenew.pdf";
+import Resume from "./BulbulResume.pdf";
 import "animate.css";
 import { isVisible } from "@testing-library/user-event/dist/utils";
 
