@@ -16,13 +16,19 @@ export default function AboutMe() {
       {/*right side*/}
       <div className="myIntro">
         <span className="myIntro-full">
-          Hello! I am Bulbul Roy, an aspiring Frontend Developer who likes
-          designing and developing beautiful websites. My interest in web
-          devlopment started when I joined the company that I'm currently
-          working in, where we had to work on a development project in which we
-          devloped a web application using thingworx which involves languages
-          like CSS, Javascript and Java. I look forward to learn more and more
-          as I step forward with my frontend journey.
+          Hi, I'm Bulbul Roy a Web Development enthusiast and always learning
+          while coding.I adore fusing the logical and artistic design to create
+          appealing, approachable, and user-friendly websites and applications.I
+          value tiny nuances and look for delight in the little things as a
+          person.
+          <br />
+          <br /> Technology sets the pace, and the rest of the world follows.I
+          think it's important to engage towards promoting inclusion and
+          diversity in the sector through representation.
+          <br />
+          <br /> I can't wait to take the plunge and continue honing my
+          abilities with the proper institution. Use the contact form to send me
+          an email or a quick note.
         </span>
         {/* <div className="blur"></div> */}
       </div>

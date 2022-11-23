@@ -11,7 +11,6 @@ function Footer() {
       <div className="footer_container container grid">
         <div>
           <h1 className="footer_title">Bulbul</h1>
-          <span className="footer_subtitle">Frontend Developer</span>
         </div>
 
         <ul className="footer_links">
