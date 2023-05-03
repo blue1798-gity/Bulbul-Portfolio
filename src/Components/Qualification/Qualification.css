@@ -61,12 +61,21 @@
   display: flex;
   gap: 5rem;
   border-bottom: 2px solid #85cfd9;
-  width: 500px;
+  width: 580px;
   padding-bottom: 1rem;
+}
+
+.title-container1 {
+  margin-top: 20px;
 }
 
 .first {
   font-size: 14px;
+}
+
+.first1 {
+  font-size: 14px;
+  margin-left: 50px;
 }
 
 .work-icon {

@@ -74,15 +74,29 @@ function Qualification() {
           </div>
 
           <div className="title-container">
+            <span>Masters in Information Technology</span>
+            <div className="secondPart">
+              <span className="first">
+                <img className="work-iconSmall" src={bag} alt="" />
+                University of North Carolina at Charlotte
+              </span>
+              <span className="first1">
+                <img className="work-iconSmall" src={calendar} alt="" />
+                Aug 2023 - 2025
+              </span>
+            </div>
+          </div>
+
+          <div className="title-container1">
             <span>B-Tech in Electronics And Telecommunication</span>
             <div className="secondPart">
               <span className="first">
                 <img className="work-iconSmall" src={bag} alt="" />
-                KIIT University, Odisha
+                Kalinga Institute of Industrial Technology, Odisha
               </span>
               <span className="first">
                 <img className="work-iconSmall" src={calendar} alt="" />
-                Jul 2016 - Jul 2020
+                2016 - 2020
               </span>
             </div>
           </div>
